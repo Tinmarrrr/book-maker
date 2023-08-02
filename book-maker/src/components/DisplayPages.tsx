@@ -21,10 +21,8 @@ function DisplayPages() {
       .request(config)
       .then((response: { data: any }) => {
         setContentArray(response.data);
-        console.log(JSON.stringify(response.data));
       })
       .catch((error: any) => {
-        console.log(error);
       });
   };
 

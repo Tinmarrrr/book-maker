@@ -37,11 +37,9 @@ function AddPageModal(props: AddPageModalProps) {
     axios
       .request(config)
       .then((response: { data: any }) => {
-        console.log(JSON.stringify(response.data));
         toast("Page added 📖");
       })
       .catch((error: any) => {
-        console.log(error);
         toast("Page can't be added 📘");
       });
   };
