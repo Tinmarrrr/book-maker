@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "743be71e-7758-47e7-b157-11624ac31033",
+		"name": "creatiwity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24142143",
+		"_collection_link": "https://orange-firefly-931600.postman.co/workspace/EIP_PROJECT~f5aa7fe5-d11f-4c30-bd1d-7aa936d50fc3/collection/24142143-743be71e-7758-47e7-b157-11624ac31033?action=share&creator=24142143&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "get-pages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-page",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "content",
+							"value": "toto",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		}
+	]
+}
