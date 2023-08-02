@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 15vw;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.add-page {
+  border-radius: 5px;
+  border: solid;
+  padding: 1vh 5vw;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 3s ease-in-out;
+}
+.add-page:hover {
+  background-image: linear-gradient(darkslategray, 95%, #fff);
+  text-decoration: underline;
+}
+

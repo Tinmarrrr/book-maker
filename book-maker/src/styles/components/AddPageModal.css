@@ -1,0 +1,45 @@
+.modal {
+  background-color: darkslategray;
+  width: 100vw;
+  height: 85vh;
+  padding-bottom: 10px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.close-button {
+  background: none;
+  border-radius: 5px;
+  border: solid;
+  padding: 5px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.close-button:hover {
+  background-image: linear-gradient(#fff, 95%, darkslategray);
+  text-decoration: underline;
+  color: darkslategrey;
+}
+
+.textarea-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 18px;
+  overflow-y: scroll;
+  resize: none;
+  width: 50vw;
+  height: 50vh;
+  outline:none;
+  border-radius: 5px;
+  padding: 10px;
+}
+

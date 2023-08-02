@@ -1,0 +1,36 @@
+.change-pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.change-button {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin: 1vh 5vw;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.change-button:hover  {
+  background-image: linear-gradient(darkslategray, 95%, #fff);
+  color: #fff;
+}
+
+.page-number {
+  font-size: 1.5rem;
+}
+
+.display-content {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.2rem;
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+}
